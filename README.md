@@ -34,7 +34,9 @@ print(f"SFAT vs ΛCDM = {prediction}")
 
 ## Licenza
 
-Distribuito sotto licenza MIT.
+Distribuito sotto licenza **GNU General Public License v3.0 (GPLv3)**.  
+Puoi liberamente usare, modificare e ridistribuire il codice, a condizione che mantieni la stessa licenza.  
+Vedi il file `LICENSE` per i dettagli completi.
 
 ## Riferimenti
 
