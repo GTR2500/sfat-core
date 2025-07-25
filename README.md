@@ -1,22 +1,23 @@
+
 # SFAT - Golden Ratio Fractal Field Theory
 
-Questo repository contiene il codice Python per simulare e verificare la **Teoria di Campo Frattale Aurea (SFAT)**, basata su simmetrie di scala discreta fondate sulla sezione aurea (φ) e correzioni log-periodiche.
+This repository contains the Python code to simulate and validate the **Fractal Golden Field Theory (SFAT)**, a model based on discrete scale invariance derived from the golden ratio (φ) and log-periodic corrections.
 
-## Contenuti
+## Contents
 
-- Calcolo del campo frattale σ(x)
-- Potenziale log-periodico V(σ)
-- Funzione beta oscillante β(g)
-- Predizioni cosmologiche SFAT (redshift, BAO, CMB)
-- Grafici e output per il confronto con ΛCDM
+- Computation of the fractal field σ(x)
+- Log-periodic potential V(σ)
+- Oscillating beta function β(g)
+- SFAT cosmological predictions (redshift, BAO, CMB)
+- Graphs and outputs for comparison with ΛCDM
 
-## Requisiti
+## Requirements
 
 ```bash
 pip install numpy matplotlib
 ```
 
-## Esempio di utilizzo
+## Example Usage
 
 ```python
 from sfat import calculate_sigma, log_periodic_potential, beta_function, cosmological_predictions
@@ -32,13 +33,12 @@ print(f"β(g) = {beta:.4f}")
 print(f"SFAT vs ΛCDM = {prediction}")
 ```
 
-## Licenza
+## License
 
-Distribuito sotto licenza **GNU General Public License v3.0 (GPLv3)**.  
-Puoi liberamente usare, modificare e ridistribuire il codice, a condizione che mantieni la stessa licenza.  
-Vedi il file `LICENSE` per i dettagli completi.
+Distributed under the MIT License.
 
-## Riferimenti
+## Reference
 
-Il modello è descritto in dettaglio nel paper:
-*Teoria di Campo Frattale Aurea (SFAT): Una Formulazione Unificata della Fisica attraverso la Scala Frattale*, Manuel Zago, 2025.
+The model is described in detail in the scientific paper:  
+*Fractal Golden Field Theory (SFAT): A Unified Formulation of Physics via Fractal Scaling*,  
+Manuel Zago, 2025.
